@@ -20,8 +20,9 @@ A command-line weather fetching app.
 <img width="348" alt="weather" src="https://user-images.githubusercontent.com/20265633/37582150-e23a2f50-2b21-11e8-946b-b6b1f90aeff5.PNG">
 
 Modules:
-- request [request](https://www.npmjs.com/package/request#table-of-contents)
+- request ([request](https://www.npmjs.com/package/request#table-of-contents))
 - yargs ([yargs](http://yargs.js.org/docs/))
+- Axios ([axios](https://www.npmjs.com/package/axios#example))
 
 API:
 - Google Maps Geolocation API [[Geocoding]](https://developers.google.com/maps/documentation/geocoding/start)
