@@ -1,6 +1,6 @@
 # Node-Playground
 
-Side projects implemented while playing build-in and NPM modules with Node.js .
+Side projects implemented while playing build-in and NPM modules with Node.js.
 
 ## notes-alrd
 
@@ -27,3 +27,11 @@ Modules:
 API:
 - Google Maps Geolocation API [[Geocoding]](https://developers.google.com/maps/documentation/geocoding/start)
 - Dark Sky API [[Document]](https://darksky.net/dev/docs)
+
+## node-web-server
+
+Library/Framework:
+- Express([express](https://expressjs.com/))
+
+Modules:
+- hbs([hbs](https://www.npmjs.com/package/handlebars)), an Express.js view engine for [handlebars.js](https://github.com/wycats/handlebars.js).
