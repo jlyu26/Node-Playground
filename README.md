@@ -30,8 +30,18 @@ API:
 
 ## node-web-server
 
+A website server template based on Express.
+
+<img width="182" alt="node-server" src="https://user-images.githubusercontent.com/20265633/37676424-48e68d8e-2c4e-11e8-947b-b852022dda2a.PNG">
+
 Library/Framework:
 - Express([express](https://expressjs.com/))
 
 Modules:
-- hbs([hbs](https://www.npmjs.com/package/handlebars)), an Express.js view engine for [handlebars.js](https://github.com/wycats/handlebars.js).
+- hbs ([hbs](https://www.npmjs.com/package/handlebars)), an Express.js view engine for [handlebars.js](https://github.com/wycats/handlebars.js).
+
+## node-tests
+
+Library/Framework:
+- Mocha ([mocha](https://mochajs.org/#features)), a behavior driven development (BDD) test framework.
+- expect ([expect](https://github.com/mjackson/expect#expect--)), an assertion library.
