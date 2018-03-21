@@ -42,6 +42,10 @@ Modules:
 
 ## node-tests
 
+<img width="424" alt="node-test" src="https://user-images.githubusercontent.com/20265633/37695248-511ba132-2ca4-11e8-9524-a9f8cb3a53aa.PNG">
+
 Library/Framework:
 - Mocha ([mocha](https://mochajs.org/#features)), a behavior driven development (BDD) test framework.
 - expect ([expect](https://github.com/mjackson/expect#expect--)), an assertion library.
+- SuperTest ([request](https://github.com/visionmedia/supertest#supertest---), yes, 'request'), a library for testing node.js HTTP server (e.g Express) developed by the authors of Express.
+- rewire ([rewire](https://www.npmjs.com/package/rewire))

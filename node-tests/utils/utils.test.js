@@ -1,23 +1,47 @@
 const utils = require('./utils');
 const expect = require('expect');
 
-it('should add two numbers', () => {
-	var res = utils.add(33, 11);
+describe('Utils', () => {
+
+	describe('#add', () => {
+		it('should add two numbers', () => {
+			var res = utils.add(33, 11);
+			
+			expect(res).toBe(44).toBeA('number');
+			// if (res !== 44) {
+			// 	throw new Error(`Expected 44, but got ${res}.`)
+			// }	
+		});
+	});
 	
-	expect(res).toBe(44).toBeA('number');
-	// if (res !== 44) {
-	// 	throw new Error(`Expected 44, but got ${res}.`)
-	// }	
+
+	it('should async add two numbers', (done) => {
+		utils.asyncAdd(4, 3, (sum) => {
+			expect(sum).toBe(7).toBeA('number');
+			done();
+		});
+	})
+
+
+	it('should square a number', () => {
+		var res = utils.square(11);
+
+		expect(res).toBe(121).toBeA('number');
+		// if (res !== 121) {
+		// 	throw new Error(`Expected 121, but got ${res}.`)
+		// }
+	});
+
+	it('should async square a number', (done) => {
+		var res = utils.square(11);
+
+		utils.asyncSquare(15, (square) => {
+			expect(square).toBe(225).toBeA('number');
+			done();
+		});
+	});
 });
 
-it('should square a number', () => {
-	var res = utils.square(11);
-
-	expect(res).toBe(121).toBeA('number');
-	// if (res !== 121) {
-	// 	throw new Error(`Expected 121, but got ${res}.`)
-	// }
-});
 
 
 it('should verify first and last names are set', ()=> {
@@ -32,8 +56,8 @@ it('should verify first and last names are set', ()=> {
 	.toInclude({
 		firstName: 'Jinyan',
 		lastName: 'Lyu'
-	})
-})
+	});
+});
 
 
 it('should expect some values', () => {
