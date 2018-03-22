@@ -47,5 +47,13 @@ Modules:
 Library/Framework:
 - Mocha ([mocha](https://mochajs.org/#features)), a behavior driven development (BDD) test framework.
 - expect ([expect](https://github.com/mjackson/expect#expect--)), an assertion library.
-- SuperTest ([request](https://github.com/visionmedia/supertest#supertest---), yes, 'request'), a library for testing node.js HTTP server (e.g Express) developed by the authors of Express.
+- SuperTest ([request](https://github.com/visionmedia/supertest#supertest---), yes, 'request'), a library for testing node.js HTTP server (e.g Express).
 - rewire ([rewire](https://www.npmjs.com/package/rewire))
+
+## node-todo-api
+
+Tools:
+- Robo 3T (formerly Robomongo)
+
+Library:
+- Node MongoDB Native ([mongodb](http://mongodb.github.io/node-mongodb-native/2.2/api/))
