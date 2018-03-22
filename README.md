@@ -54,6 +54,12 @@ Library/Framework:
 
 Tools:
 - Robo 3T (formerly Robomongo)
+- Postman
 
 Library:
 - Node MongoDB Native ([mongodb](http://mongodb.github.io/node-mongodb-native/2.2/api/))
+- Mongoose ([mongoose](http://mongoosejs.com/docs/guide.html))
+- Express ([express](https://expressjs.com/))
+
+Modules:
+- body-parser ([bodyParser](https://www.npmjs.com/package/body-parser))
