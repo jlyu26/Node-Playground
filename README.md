@@ -60,6 +60,9 @@ Library:
 - Node MongoDB Native ([mongodb](http://mongodb.github.io/node-mongodb-native/2.2/api/))
 - Mongoose ([mongoose](http://mongoosejs.com/docs/guide.html))
 - Express ([express](https://expressjs.com/))
+- Mocha ([mocha](https://mochajs.org/#features))
+- expect ([expect](https://github.com/mjackson/expect#expect--))
+- SuperTest ([request](https://github.com/visionmedia/supertest#supertest---))
 
-Modules:
+Middleware:
 - body-parser ([bodyParser](https://www.npmjs.com/package/body-parser))
