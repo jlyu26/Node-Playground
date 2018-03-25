@@ -52,6 +52,10 @@ Library/Framework:
 
 ## node-todo-api
 
+A REST API that supports connect, delete, find, update, etc.
+
+<img width="479" alt="node-todo-api" src="https://user-images.githubusercontent.com/20265633/37871806-477ff1e0-2fc5-11e8-9db6-c2b7ffc91d10.PNG">
+
 Tools:
 - Robo 3T (formerly Robomongo)
 - Postman
@@ -66,3 +70,6 @@ Library:
 
 Middleware:
 - body-parser ([bodyParser](https://www.npmjs.com/package/body-parser))
+
+Modules:
+- Lodash ([ _ ](https://lodash.com/docs/4.17.5))
