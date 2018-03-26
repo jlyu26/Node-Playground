@@ -8,6 +8,8 @@ A chat app based on socket.io.
 
 Library/Framework:
 - socket.io ([socketIO](https://socket.io/docs/))
+- Mocha ([mocha](https://mochajs.org/#features))
+- expect ([expect](https://github.com/mjackson/expect#expect--))
 
 Modules:
 - path ([path](https://nodejs.org/api/path.html#path_path_join_paths)), build-in module.
