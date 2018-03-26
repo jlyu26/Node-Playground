@@ -11,6 +11,7 @@ Library/Framework:
 - Mocha ([mocha](https://mochajs.org/#features))
 - expect ([expect](https://github.com/mjackson/expect#expect--))
 - jQuery
+- Moment.js ([moment](https://momentjs.com/))
 
 Modules:
 - path ([path](https://nodejs.org/api/path.html#path_path_join_paths)), build-in module.
