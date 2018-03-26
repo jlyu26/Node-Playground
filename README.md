@@ -12,6 +12,7 @@ Library/Framework:
 - expect ([expect](https://github.com/mjackson/expect#expect--))
 - jQuery
 - Moment.js ([moment](https://momentjs.com/))
+- mustache.js ([Mustache](https://github.com/janl/mustache.js/tree/v2.2.1))
 
 Modules:
 - path ([path](https://nodejs.org/api/path.html#path_path_join_paths)), build-in module.
