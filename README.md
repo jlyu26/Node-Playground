@@ -2,6 +2,17 @@
 
 Side projects implemented while playing build-in and NPM modules with Node.js.
 
+## node-chat-app
+
+A chat app based on socket.io.
+
+Library/Framework:
+- socket.io ([socketIO](https://socket.io/docs/))
+
+Modules:
+- path ([path](https://nodejs.org/api/path.html#path_path_join_paths)), build-in module.
+- http ([http](https://nodejs.org/api/http.html#http_http))
+
 ## notes-alrd
 
 A command-line notes system, support 'add', 'list', 'read', 'delete' operations.
