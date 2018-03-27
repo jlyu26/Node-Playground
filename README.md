@@ -4,7 +4,11 @@ Side projects implemented while playing build-in and NPM modules with Node.js.
 
 ## node-chat-app
 
-A chat app based on socket.io.
+A chatroom app based on socket.io.
+
+[[Online Demo](https://fathomless-anchorage-29897.herokuapp.com)]
+
+![node-chat-app](https://user-images.githubusercontent.com/20265633/37941774-ddb36100-313d-11e8-99eb-c29387a6ff3b.gif)
 
 Library/Framework:
 - socket.io ([socketIO](https://socket.io/docs/))
