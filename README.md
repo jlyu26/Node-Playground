@@ -10,7 +10,7 @@ Library/Framework:
 - socket.io ([socketIO](https://socket.io/docs/))
 - Mocha ([mocha](https://mochajs.org/#features))
 - expect ([expect](https://github.com/mjackson/expect#expect--))
-- jQuery
+- jQuery and [jQuery depram plugin](https://links.mead.io/deparam) 
 - Moment.js ([moment](https://momentjs.com/))
 - mustache.js ([Mustache](https://github.com/janl/mustache.js/tree/v2.2.1))
 
