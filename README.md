@@ -1,16 +1,17 @@
-# Node-Playground
+# Node.js Workspace
 
-Side projects implemented while playing build-in and NPM modules with Node.js.
+Side projects implemented with Node.js.
 
-## node-chat-app
+## CatchApp
 
-A chatroom app based on socket.io.
+An WebSocket based real-time messaging tool that enables users to communicate without being traced.
 
 [[Online Demo](https://fathomless-anchorage-29897.herokuapp.com)]
 
 ![node-chat-app](https://user-images.githubusercontent.com/20265633/37941774-ddb36100-313d-11e8-99eb-c29387a6ff3b.gif)
 
 Library/Framework:
+- Express([express](https://expressjs.com/))
 - socket.io ([socketIO](https://socket.io/docs/))
 - Mocha ([mocha](https://mochajs.org/#features))
 - expect ([expect](https://github.com/mjackson/expect#expect--))
